@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #adc178;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 200px;
+    /* border-bottom: solid;
+    border-bottom-color: #000000; */
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.books {
+    background-color: #dde5b6;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    gap: 32px;
+    flex: 1;
+}
+
+.bookposts {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+.covers {
+    width: 200px;
+    height: auto;
+}
+.name {
+    font-size: 36px;
+    font-weight: 900;
+    color: #000000;
+    text-align: center;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 200px;
+    gap: 56px;
+}
+
+.post{
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+    margin: 0px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 8px 0px;
+}
+
+h5 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #adc178;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}

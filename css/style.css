@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #adc178;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 200px;
+    /* border-bottom: solid;
+    border-bottom-color: #000000; */
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.headlinks{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main {
+    background-color: #dde5b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 60px;
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 8px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.subtitle {
+    font-size: 26px;
+    font-weight: lighter;
+    color: #000000;
+}
+
+
+.rectangle {
+    width: 400px;
+    height:200px;
+    flex: 2;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot {
+    display: flex;
+    width: 50px;
+    height:auto;
+    flex: 1
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px;
+    gap: 32px;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* width: 800px; */
+}
+
+.text {
+    font-size: 26px;
+    font-weight: lighter;
+    color: #000000;
+
+}
+
+.projects {
+    background-color: #dde5b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 32px;
+    flex: 1;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    gap: 32px;
+    flex: 1;
+}
+
+.bookposts {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.covers {
+    width: 200px;
+    height: auto;
+}
+.name {
+    font-size: 36px;
+    font-weight: 900;
+    color: #000000;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+
+.hold{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    gap: 16px
+    
+}
+
+.caption {
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+
+
+.footer {
+    background-color: #adc178;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
