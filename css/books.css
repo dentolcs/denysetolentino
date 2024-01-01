@@ -60,8 +60,8 @@ a {
 }
 
 .covers {
-    width: 200px;
-    height: auto;
+    height: 300px;
+    
 }
 .name {
     font-size: 36px;
@@ -80,6 +80,7 @@ a {
 .post{
     display: flex;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
     gap: 56px;
 }
 
